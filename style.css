@@ -1,0 +1,373 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Quicksand:wght@300..700&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Quicksand", serif;
+    letter-spacing: 1.5px;
+    scroll-behavior: smooth;
+}
+
+.max-width-cont{
+    width: 1220px;
+    margin: 0 auto;
+}
+.main-cont{
+   display: flex;
+   background-color: aquamarine;
+   padding: 50px 0px;
+}
+.cont1{
+    background-color: #002062;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cont1-wrap{
+    /* background-color: rgb(89, 121, 150); */
+    width: 80%;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo img{
+   width: 350px;
+   text-align: center;
+}
+.heading{
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    margin: 20px 0px;
+}
+
+
+.input-main-cont{
+    background-color: #012876;
+    display: flex;
+    height: 40px;
+    align-items: center;
+    border-radius: 10px;
+
+}
+.input-icon{
+    width: 10%;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    color: #57a5d8;
+}
+.input-main-cont:hover{
+    background-color: #1b3c7d;
+}
+.input-main-cont:focus-within{
+    background-color: #1b3c7d;
+}
+.input-main-cont:hover .input-icon{
+    font-size: 30px;
+}
+
+.email-input{
+    background-color: transparent;
+    height: 35px;
+    width: 89%;
+    padding-left: 20px;
+    border: none;
+    outline: none;
+    font-size: 19px;
+    color: white;
+    font-weight: 700;
+
+}
+.password-input{
+    background-color: transparent;
+    height: 35px;
+    width: 89%;
+    padding-left: 20px;
+    border: none;
+    outline: none;
+    font-size: 19px;
+    color: white;
+    font-weight: 700;
+
+}
+.forgot-pass{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+.forgot-pass a{
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+}
+
+.forgot-pass a:hover{
+    text-decoration: underline;
+    opacity: .8;
+}
+.login-btn{
+    background-color: #1a4fba;
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    color: white;
+    font-size: 17px;
+    font-weight: 800;
+    outline: none;
+    border: none;
+    
+}
+.login-btn:hover{
+    background-color: #2a61cf;
+}
+.hr-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+    color: white;
+}
+.hr-div hr{
+    width: 180px;
+    height: 1px;
+}
+
+.google{
+    background-color: #012876;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    height: 40px;
+    width: 100%;
+    font-size: 17px;
+    margin-top: 10px;
+    color: white;
+    border-radius: 10px;
+}
+.google-icon{
+    font-size: 25px;
+    color: #57a5d8;
+}
+
+.google:hover{
+    background-color: #132f68be;
+    border: 1px solid white;
+    
+    cursor: pointer;
+}
+.google:hover .google-icon{
+    font-size: 28px;
+}
+
+.facebook{
+    background-color: #012876;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    height: 40px;
+    width: 100%;
+    font-size: 17px;
+    margin-top: 10px;
+    color: white;
+    border-radius: 10px;
+
+}
+.facebook-icon{
+    font-size: 25px;
+    color: #57a5d8;
+}
+
+.facebook:hover{
+    background-color: #132f68be;
+    border: 1px solid white;
+    
+    cursor: pointer;
+}
+.facebook:hover .facebook-icon{
+    font-size: 28px;
+}
+
+.apple{
+    background-color: #012876;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    height: 40px;
+    width: 100%;
+    font-size: 17px;
+    margin-top: 10px;
+    color: white;
+    border-radius: 10px;
+
+}
+.apple-icon{
+    font-size: 25px;
+    color: #57a5d8;
+}
+
+.apple:hover{
+    background-color: #132f68be;
+    border: 1px solid white;
+    
+    cursor: pointer;
+}
+.apple:hover .apple-icon{
+    font-size: 28px;
+}
+
+
+.create-account{
+    font-size: 18px;
+    text-align: center;
+    color: white;
+    font-weight: 200;
+}
+.create-account a{
+    text-decoration: none;
+    color: #57a5d8;
+}
+.create-account a:hover{
+    text-decoration: underline;
+    opacity: .8;
+}
+
+
+.cont2{
+    background-color: #002062;
+    height: 800px;
+    width: 60%;
+    display: flex;
+}
+.cont2-wrap{
+    background-color: olive;
+    background-image: url('./background.png');
+    background-size: 100% 100%; 
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cont3{
+    background-color: #002062;
+    height: 800px;
+    width: 60%;
+    display: flex;
+    display: none;
+    
+}
+.cont3-wrap{
+    background-color: olive;
+    background-image: url('./background.png');
+    background-size: 100% 100%; 
+    width: 100%;
+    height: 850px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.top-login-btn{
+   background-color: #002062;
+   height: 50px;
+   width: 200px; 
+   border-radius: 10px;
+   border: none;
+}
+.top-login-btn a{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 600;
+}
+.top-login-btn:hover{
+   background-color: #183a7e;
+   cursor: pointer;
+}
+
+
+
+
+@media (max-width:1225px) {
+    .max-width-cont{
+        width: 1000px;
+    }
+}
+
+/* for tablets */
+@media (max-width:1005px){
+    .max-width-cont{
+        width: 768px;
+    }
+    .main-cont{
+        display: inline;
+    }
+    .cont1{
+        margin-top: 20px;
+        width: 100%;
+        padding: 70px 0px;
+    }
+    .cont3{
+        display: inline;
+    }
+    .cont2{
+        display: none;
+    }
+}
+
+@media (max-width:770px) {
+    .max-width-cont{
+        width: 100%;
+    }
+}
+@media (max-width:450px) {
+    .cont1{
+    height: 850px;
+
+    }
+    .logo img{
+        width: 300px;
+    }
+    .heading{
+        font-size: 25px;
+    }
+    .input-icon{
+        font-size: 17px;
+    }
+    .input-main-cont:hover .input-icon{
+        font-size: 20px;
+    }
+    .email-input{
+        font-size: 15px;
+    }
+    .password-input{
+        font-size: 15px;
+    }
+    .forgot-pass a{
+        font-size: 12px;
+    }
+    .google{
+        font-size: 13px;
+    }
+    .facebook{
+        font-size: 13px;
+    }
+    .apple{
+        font-size: 13px;
+    }
+    .create-account{
+        font-size: 15px;
+    }
+}
